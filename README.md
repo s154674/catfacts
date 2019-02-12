@@ -12,7 +12,7 @@ med en bruger som havde adgang fra andre steder end localhost, og indså jeg ikk
 - Jeg lavede en model med kun text og id felter, hvis det var noget jeg arbjede videre med
 ville jeg nok have udvidet modellen så den kunne have mere funktionalitet i fremtiden
 - Django management kommandoen er fundet under catfacts\cats\management\commands\getcatfacts.py
-Jeg ville gerne have sørget for at håndtere duplicate data i databasen, men nåede det ikke.
+Jeg ville gerne have sørget for at håndtere duplicate data i databasen, men nåede det ikke. Hvis man kører **python manage.py getcatfacts** flere gange nu, smider den dataen ind igen on igen, så der er chance for at vise det samme fact 2 gange. 
 - Viewet findes i cats\views.py
 ---------------------
 
