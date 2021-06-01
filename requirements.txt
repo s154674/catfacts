@@ -4,7 +4,7 @@ Django==2.1.7
 get==2018.11.19
 idna==2.8
 requests==2.21.0
-urllib3==1.24.1
+urllib3==1.26.5
 mysqlclient==1.4.2
 post==2018.11.20
 public==2018.11.20
